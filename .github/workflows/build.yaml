@@ -35,3 +35,7 @@ jobs:
         run: cargo age
 
 
+      - name: Run Tests
+        run: cargo test
+
+

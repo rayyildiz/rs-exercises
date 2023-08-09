@@ -1,5 +1,7 @@
 ## Setup
 
+[![Build](https://github.com/rayyildiz/rs-exercises/actions/workflows/build.yaml/badge.svg)](https://github.com/rayyildiz/rs-exercises/actions/workflows/build.yaml)
+
 * Download and install [Rust](https://www.rust-lang.org/tools/install)
     * Enable [Rust](https://www.jetbrains.com/rust/) plugin.
 * Download a proper IDE. There are some alternatives:
