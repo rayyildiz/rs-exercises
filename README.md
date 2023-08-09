@@ -3,7 +3,6 @@
 [![Build](https://github.com/rayyildiz/rs-exercises/actions/workflows/build.yaml/badge.svg)](https://github.com/rayyildiz/rs-exercises/actions/workflows/build.yaml)
 
 * Download and install [Rust](https://www.rust-lang.org/tools/install)
-    * Enable [Rust](https://www.jetbrains.com/rust/) plugin.
 * Download a proper IDE. There are some alternatives:
     * Jetbrains [Intellij IDEA](https://www.jetbrains.com/idea/), [CLion](https://www.jetbrains.com/clion/)  or any
       other plugin that supports [Rust](https://www.jetbrains.com/rust/) plugin.
@@ -20,7 +19,7 @@ cd rs-exercises
 cargo check
 ```
 
-Everything is fine if you can see ```hello world from go```.
+Everything is fine if you should not see any error.
 
 ## Exercises
 
