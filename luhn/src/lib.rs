@@ -2,7 +2,6 @@ pub fn is_valid(card_no: String) -> Result<bool, String> {
     Err("not implemented".to_string())
 }
 
-
 #[cfg(test)]
 mod tests {
     use super::*;

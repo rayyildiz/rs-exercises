@@ -12,7 +12,6 @@ pub const EARTH_LENGTH_OF_YEAR: f32 = 365.00_f32;
 pub const MARS_LENGTH_OF_YEAR: f32 = 687.00_f32;
 pub const JUPYTER_LENGTH_OF_YEAR: f32 = 4343.50_f32;
 
-
 pub fn convert_space_age(age: u16, p: Planet) -> u32 {
     return 0;
 }
@@ -47,5 +46,4 @@ mod tests {
     fn age_in_jupyter() {
         assert_eq!(6, convert_space_age(70, Planet::Jupyter));
     }
-
 }
