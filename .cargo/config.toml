@@ -1,0 +1,5 @@
+[alias]
+b = "build"
+t = "test --verbose"
+luhn = "run --package luhn"
+age = "run --package age"

@@ -1,0 +1,8 @@
+target/
+.idea/
+.github/
+data/
+taxrates.db-shm
+taxrates.db-wal
+.env
+.env.samples
