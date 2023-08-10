@@ -1,5 +1,5 @@
 pub fn is_valid(card_no: String) -> Result<bool, String> {
-    Err("not implemented".to_string())
+    Err(String::from("not implemented"))
 }
 
 #[cfg(test)]

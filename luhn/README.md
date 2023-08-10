@@ -12,7 +12,7 @@ cargo test
 
 Implement [is_valid](./src/lib.rs) method and fix the tests.
 
-Benchmark test:  ```cargo test```
+Running tests:  ```cargo test```
 
 ## Luhn Algorithm
 

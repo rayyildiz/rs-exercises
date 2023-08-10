@@ -2,7 +2,6 @@
 
 ## [Setup Instructions](../README.md#setup)
 
-
 Run the following command:
 
 ```bash
