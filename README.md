@@ -6,12 +6,12 @@
 * Download a proper IDE. There are some alternatives:
     * Jetbrains [Intellij IDEA](https://www.jetbrains.com/idea/), [CLion](https://www.jetbrains.com/clion/)  or any
       other plugin that supports [Rust](https://www.jetbrains.com/rust/) plugin.
-    * [VSCodium](https://github.com/VSCodium/vscodium/releases)
-      with [rust analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer). VSCodium is a
-      fork of [Visual Studio Code](https://code.visualstudio.com/) without MS branding/telemetry/licensing
+    * [Visual Studio Code](https://code.visualstudio.com/)
+      with [rust analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) plugin.
     * [vim](https://www.vim.org/) is a good alternative with [plugin](https://github.com/rust-lang/rust.vim).
-    * Check [Rust Tools](https://www.rust-lang.org/tools).
+    * See [Rust Tools](https://www.rust-lang.org/tools) for other alternatives.
 * Clone project :
+
 
 ```bash
 git clone https://github.com/rayyildiz/rs-exercises.git
@@ -19,9 +19,12 @@ cd rs-exercises
 cargo check
 ```
 
-Everything is fine if you should not see any error.
+If all is well, you should not see any errors.
 
 ## Exercises
 
 - [1- Luhn](luhn/README.md)
 - [2- Space Age](age/README.md)
+
+
+> PS: Check it out: [Rust by Examples](https://github.com/rust-lang/rust-by-example)
