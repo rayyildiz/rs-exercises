@@ -5,7 +5,7 @@
 * Download and install [Rust](https://www.rust-lang.org/tools/install)
 * Download a proper IDE. There are some alternatives:
     * Jetbrains [Intellij IDEA](https://www.jetbrains.com/idea/), [CLion](https://www.jetbrains.com/clion/)  or any
-      other plugin that supports [Rust](https://www.jetbrains.com/rust/) plugin.
+      other IDE that supports [Rust](https://www.jetbrains.com/rust/) plugin.
     * [Visual Studio Code](https://code.visualstudio.com/)
       with [rust analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) plugin.
     * [vim](https://www.vim.org/) is a good alternative with [plugin](https://github.com/rust-lang/rust.vim).
