@@ -13,18 +13,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-
-      - uses: actions/cache@v3
-        with:
-          path: |
-            ~/.cargo/bin/
-            ~/.cargo/registry/index/
-            ~/.cargo/registry/cache/
-            ~/.cargo/git/db/
-            target/
-          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
-
+      - uses: actions/checkout@v4
+      
       - name: Check
         run: cargo check
 
@@ -33,7 +23,6 @@ jobs:
 
       - name: Space age
         run: cargo age
-
 
       - name: Run Tests
         run: cargo test
